@@ -47,6 +47,7 @@ namespace ProyWin_Lab21
         private void btnEditar_Click(object sender, EventArgs e)
         {
             txtLectura.ReadOnly = false;
+            MessageBox.Show("Has habilitado el textbox para editarlo");
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
